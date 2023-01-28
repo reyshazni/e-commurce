@@ -4,10 +4,10 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && expo start",
-    "android": "set NODE_OPTIONS=--openssl-legacy-provider && expo start --android",
+    "andro": "set NODE_OPTIONS=--openssl-legacy-provider && expo start --android",
     "ios": "set NODE_OPTIONS=--openssl-legacy-provider && expo start --ios",
     "web": "set NODE_OPTIONS=--openssl-legacy-provider && expo start --web",
-    "emulator-android": "emulator -avd Nexus_5X_API_32"
+    "emu-andro": "emulator -avd Nexus_5X_API_32"
   },
   "dependencies": {
     "@expo/webpack-config": "^0.17.2",
